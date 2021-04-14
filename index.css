@@ -162,6 +162,7 @@ a {
         height: 100px;
         position:relative; 
         left:280px;
+        margin-bottom: 2rem;
     }
 
     .valley p{
