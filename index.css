@@ -84,21 +84,39 @@ a {
   
 }
 
-.plan{
+.top-nav a:nth-child(1){
     background-color:#FF764E;
-    width: 10%
+    width: 10%;
     
 
 }
 
-.learn{
+.top-nav a:nth-child(2){
     background-color: #5ED3EB;
-    width: 10%
+    width: 10%; 
+    padding: 2.3% 2%;
 }
 
-.get{
+.top-nav a:nth-child(3){
     background-color: #FFCD69;
-    width: 10%
+    width: 10%;
+}
+
+.bottom-nav a:nth-child(1){
+    background-color:#FF764E;
+    width: 10%;
+    
+
+}
+
+.bottom-nav a:nth-child(2){
+    background-color: #5ED3EB;
+    width: 10%; 
+}
+
+.bottom-nav a:nth-child(3){
+    background-color: #FFCD69;
+    width: 10%;
 }
 
 .image{
