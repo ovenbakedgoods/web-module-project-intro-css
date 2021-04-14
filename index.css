@@ -20,8 +20,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -116,6 +114,7 @@ a {
     position:relative; 
     left:480px; 
     bottom:100px;
+    
 
 
 }
@@ -147,10 +146,41 @@ a {
 
     .camp-Fire{
         display: block;
+        
     }
 
     .rvSection{
         display: block;
     }
 
-    
+    .valley{
+        text-align: center;
+        font-size: 1rem;
+        background-color: #DDB9A3;
+        color: white;
+        width: 900px;
+        height: 100px;
+        position:relative; 
+        left:280px;
+    }
+
+    .valley p{
+        line-height: 1.5;
+    }
+
+  .camp-Fire p{
+      width: 300px;
+       position:relative; 
+        left:480px;
+        margin-bottom: 5rem;
+        margin-top: 1rem;
+        line-height: 1.7;
+  }
+
+  .rvSection{
+      width: 300px;
+       position:relative; 
+        left:480px;
+        margin-bottom: 5rem;
+        margin-top: 1rem;
+  }
